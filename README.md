@@ -16,10 +16,21 @@ Also the API to view the page will be http://localhost:9001, through which we ca
 
 Kafka Producer and Consumer configuration can be found at application.yml file
 
+Modified resources can be found in the project under src/main/resources/delivery folder
+
 # How to Run
 
-It can be run as a spring boot application.
+Run the below command under directory "/payment-processor/src/main/resources/delivery/" of this project
+docker-compose up -d 
+
+Then the project can be run as a spring boot application.
+
+Then use below url to generate messages and test the application
+
+http://localhost:9001
 
 # Further improvements
 
 Tests should be written, currently tested it manually
+
+Logs can be improved
