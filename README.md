@@ -16,6 +16,10 @@ Also the API to view the page will be http://localhost:9001, through which we ca
 
 Kafka Producer and Consumer configuration can be found at application.yml file
 
+# How to Run
+
+It can be run as a spring boot application.
+
 # Further improvements
 
 Tests should be written, currently tested it manually
