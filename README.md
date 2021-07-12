@@ -10,7 +10,7 @@ so using "http://localhost:9000/" we can see and monitor the kafka, its topics, 
 
 To accomodate above, I have modified the port of api-producer service from 9000 to 9001
 
-Hence APIs for payment and logging errors use port 9001 (http://localhost:9001/payment, http://localhost:9001/log)
+Hence APIs for validation of payment and logging errors use port 9001 (http://localhost:9001/payment, http://localhost:9001/log)
 
 Also the API to view the page will be http://localhost:9001, through which we can initiate tests by producing messages view error logs etc.
 
